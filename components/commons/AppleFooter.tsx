@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { FiChevronRight, FiApple } from 'react-icons/fi';
 
 export default function AppleFooter() {
   const [country, setCountry] = useState('Việt Nam');
@@ -108,9 +107,14 @@ export default function AppleFooter() {
         <nav className="border-b border-gray-300 pb-2">
           <div className="flex items-center space-x-1">
             <Link href="/" className="text-gray-600 hover:underline">
-              <FiApple className="h-4 w-4" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"></path>
+                <path d="M10 2c1 .5 2 2 2 5"></path>
+              </svg>
             </Link>
-            <FiChevronRight className="h-3 w-3 text-gray-400" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-3 w-3 text-gray-400">
+              <path d="m9 18 6-6-6-6"></path>
+            </svg>
             <span>Cửa Hàng Trực Tuyến của Apple</span>
           </div>
         </nav>
