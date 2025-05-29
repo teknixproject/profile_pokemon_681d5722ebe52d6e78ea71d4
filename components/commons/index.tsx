@@ -18,4 +18,5 @@ export const components = {
   Dropdown: dynamic(() => import('./Dropdown')),
   Collapse: dynamic(() => import('./Collapse')),
   LandingPage: dynamic(() => import("./LandingPage")),
+  AppleNavbar: dynamic(() => import("./AppleNavbar")),
 };
