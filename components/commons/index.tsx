@@ -17,4 +17,5 @@ export const components = {
   Navigation: dynamic(() => import('./Navigation')),
   Dropdown: dynamic(() => import('./Dropdown')),
   Collapse: dynamic(() => import('./Collapse')),
+  LandingPage: dynamic(() => import("./LandingPage")),
 };
