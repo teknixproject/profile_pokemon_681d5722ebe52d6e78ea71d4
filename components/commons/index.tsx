@@ -21,4 +21,5 @@ export const components = {
   AppleNavbar: dynamic(() => import("./AppleNavbar")),
   AppleFooter: dynamic(() => import("./AppleFooter")),
   BlogCard: dynamic(() => import("./BlogCard")),
+  AppleSupport: dynamic(() => import("./AppleSupport")),
 };
