@@ -19,4 +19,5 @@ export const components = {
   Collapse: dynamic(() => import('./Collapse')),
   LandingPage: dynamic(() => import("./LandingPage")),
   AppleNavbar: dynamic(() => import("./AppleNavbar")),
+  AppleFooter: dynamic(() => import("./AppleFooter")),
 };
