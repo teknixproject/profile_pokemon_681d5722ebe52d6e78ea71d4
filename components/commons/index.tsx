@@ -20,4 +20,5 @@ export const components = {
   LandingPage: dynamic(() => import("./LandingPage")),
   AppleNavbar: dynamic(() => import("./AppleNavbar")),
   AppleFooter: dynamic(() => import("./AppleFooter")),
+  BlogCard: dynamic(() => import("./BlogCard")),
 };
