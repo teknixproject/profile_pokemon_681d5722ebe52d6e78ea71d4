@@ -23,4 +23,5 @@ export const components = {
   BlogCard: dynamic(() => import("./BlogCard")),
   AppleSupport: dynamic(() => import("./AppleSupport")),
   AppleNavigationBar: dynamic(() => import("./AppleNavigationBar")),
+  CustomWidgete920019b2412: dynamic(() => import("./CustomWidgete920019b2412")),
 };
